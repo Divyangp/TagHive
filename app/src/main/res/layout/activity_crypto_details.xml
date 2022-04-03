@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.CryptoListActivity">
+
+    <include
+        android:id="@+id/tool_bar"
+        layout="@layout/tool_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_below="@+id/tool_bar"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <com.app.taghive.view.MyTextView
+                android:id="@+id/txtnamec"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="start"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp" />
+
+        <com.app.taghive.view.MyTextView
+            android:id="@+id/txtcname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp" />
+
+    </LinearLayout>
+
+        <com.app.taghive.view.MyTextView
+            android:id="@+id/txtcopenprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            />
+
+
+        <com.app.taghive.view.MyTextView
+            android:id="@+id/txtclowprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            />
+
+        <com.app.taghive.view.MyTextView
+            android:id="@+id/txtchighprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            />
+
+
+        <com.app.taghive.view.MyTextView
+            android:id="@+id/txtclastprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            />
+
+
+        <com.app.taghive.view.MyTextView
+            android:id="@+id/txtcvolume"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
